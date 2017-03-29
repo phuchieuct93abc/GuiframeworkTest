@@ -1,0 +1,10 @@
+IntegrationTestPageData #class
+ch.integrationTest.IntegrationTestPage #namespace
+config ch.axonivy.integrationtest.core.config.IntegrationConfig #field
+config PERSISTENT #fieldModifier
+requestParam ch.axonivy.integrationtest.core.bean.IntegrationRequestParam #field
+requestParam PERSISTENT #fieldModifier
+methodDelegationResult ch.axonivy.integrationtest.core.util.MethodDelegationResult #field
+methodDelegationResult PERSISTENT #fieldModifier
+methodDelegationParam ch.axonivy.integrationtest.core.util.MethodDelegationParam #field
+methodDelegationParam PERSISTENT #fieldModifier

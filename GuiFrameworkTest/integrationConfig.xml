@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<itConfig>
+    <project name="GuiFramework">
+        <general>
+            <historyNumber>10</historyNumber>
+            <integrationStartLink>Business Processes/startIntegrationTest/start.ivp</integrationStartLink>
+        </general>
+        <profiles>
+            <profile id="guiTest">
+                <testSuite>
+                    <testClass name="src.test.PersonTest"/>
+                   
+                </testSuite>
+            </profile>
+        </profiles>
+    </project>
+</itConfig>

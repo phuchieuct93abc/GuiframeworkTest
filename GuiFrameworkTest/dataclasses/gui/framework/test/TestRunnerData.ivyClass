@@ -1,0 +1,10 @@
+TestRunnerData #class
+gui.framework.test #namespace
+testResult org.junit.runner.Result #field
+testResult PERSISTENT #fieldModifier
+classForTest String #field
+classForTest PERSISTENT #fieldModifier
+config ch.axonivy.integrationtest.core.config.IntegrationConfig #field
+config PERSISTENT #fieldModifier
+requestParam ch.axonivy.integrationtest.core.bean.IntegrationRequestParam #field
+requestParam PERSISTENT #fieldModifier
