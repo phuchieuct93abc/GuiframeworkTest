@@ -1,5 +1,5 @@
 [Ivy]
-[>Created: Wed Mar 29 13:41:16 ICT 2017]
+[>Created: Wed Mar 29 15:25:08 ICT 2017]
 15B12B542084ACD7 3.18 #module
 >Proto >Proto Collection #zClass
 st0 startIntegrationTest Big #zClass
@@ -72,7 +72,7 @@ st0 f10 expr out #txt
 st0 f10 336 194 336 238 #arcP
 st0 f9 targetWindow NEW:card: #txt
 st0 f9 targetDisplay TOP #txt
-st0 f9 richDialogId ch.integrationTest.IntegrationTestPage #txt
+st0 f9 richDialogId ch.integrationTest.IntegrationTest #txt
 st0 f9 startMethod start(ch.axonivy.integrationtest.core.bean.IntegrationRequestParam) #txt
 st0 f9 type gui.test.TestRunnerData #txt
 st0 f9 requestActionDecl '<ch.axonivy.integrationtest.core.bean.IntegrationRequestParam requestParam> param;' #txt

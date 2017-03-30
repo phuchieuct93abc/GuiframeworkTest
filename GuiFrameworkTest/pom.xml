@@ -2,15 +2,15 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>gui.framework.test</groupId>
-  <artifactId>gui-framework-test</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
-  <packaging>iar</packaging>
-   <parent>
+  <parent>
     <groupId>ch.fintech</groupId>
     <artifactId>ivy-test-project</artifactId>
     <version>1.0.0.0-SNAPSHOT</version>
   </parent>
+  <groupId>gui.framework.test</groupId>
+  <artifactId>gui-framework-test</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>iar</packaging>
   <dependencies>
     <dependency>
       <groupId>ch.axonivy.fintech</groupId>
@@ -21,6 +21,12 @@
     <dependency>
       <groupId>gui.framework</groupId>
       <artifactId>gui-framework</artifactId>
+      <version>[1.0.0-SNAPSHOT,)</version>
+      <type>iar</type>
+    </dependency>
+    <dependency>
+      <groupId>integration.test.gui</groupId>
+      <artifactId>integration-test-gui</artifactId>
       <version>[1.0.0-SNAPSHOT,)</version>
       <type>iar</type>
     </dependency>
